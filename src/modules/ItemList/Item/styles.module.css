@@ -1,0 +1,17 @@
+.item {
+  box-sizing: border-box;
+  margin-right: 0.5%;
+  margin-left: 0.5%;
+  width: 32%;
+  width: unset;
+  float: left;
+  border: 1px solid #eee;
+  border-radius: 5px;
+  padding: 10px;
+  background: #efefef;
+  box-shadow: 1px 1px 3px #8f8c8c;
+  min-height: 230px;
+}
+.header {
+  color: "green";
+}

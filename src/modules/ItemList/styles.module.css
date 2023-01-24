@@ -1,0 +1,17 @@
+.itemList {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 15px 10px;
+}
+
+@media (min-width: 415px) {
+  .itemList {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 835px) {
+  .itemList {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
